@@ -1,4 +1,4 @@
-```markdown
+
 # 📌 Calculadora Baseada em Texto em C
 
 ## 📖 Descrição
