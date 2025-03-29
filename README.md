@@ -5,7 +5,7 @@
 Este projeto é uma calculadora simples baseada em texto, desenvolvida em C, que permite realizar operações matemáticas básicas diretamente no terminal. O usuário pode escolher entre adição, subtração, multiplicação e divisão. O programa exibe um menu interativo e continua funcionando até que o usuário escolha sair.
 
 ## 🎥 Demonstração
-![demostração](imgs\Captura.PNG)
+![demostração](imgs/Captura.PNG)
 
 
 ## 📦 Pré-requisitos
@@ -17,7 +17,7 @@ Este projeto é uma calculadora simples baseada em texto, desenvolvida em C, que
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/calculadora-c.git
+   git clone https://github.com/gabrieldotmasterson/calculadora-c.git
    ```
 2. Acesse o diretório do projeto:
    ```sh
@@ -55,6 +55,7 @@ calculadora-c/
 - `main.c`: Código-fonte principal da calculadora.
 - `README.md`: Documentação do projeto.
 - `LICENSE`: Arquivo de licença do projeto.
+- `imgs`: pasta de imagens.
 
 ## 📜 Licença
 
