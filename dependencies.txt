@@ -1,0 +1,15 @@
+# Dependências para a Calculadora em C
+
+## Compilador necessário:
+- GCC (recomendado) ou Clang
+
+## Bibliotecas padrão do C:
+- stdio.h (Entrada e saída)
+- stdlib.h (Gerenciamento de memória e controle de execução)
+- math.h (Operações matemáticas, se necessário)
+
+## Sistema operacional compatível:
+- Windows, Linux, macOS
+
+## Como compilar:
+gcc main.c -o calculadora
