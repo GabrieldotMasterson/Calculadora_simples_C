@@ -6,43 +6,41 @@ int main() {
 
     printf("===============================");
     printf("\n   Calculadora Simples");
-    while (1){
+
+    int opr;
+    int n1;
+    int n2;
+    while (1)
+    {
         printf("\n===============================");
         printf("\nSelecione uma operação:\n1. Adição\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Sair\nOpcao:\n");
 
-        int opr;
+        
         scanf("%d", &opr);
-
-        if (opr == 5){
+        if (opr == 5) {
             printf("\nObrigado por usar a calculadora! Até a próxima.");
             break;
         }else{
             if ((opr < 0) || (opr > 5)){
                 printf("\ndigite um valor válido");
-                break;
+                continue;
             }
         }
 
         printf("Digite o primeiro número: ");
-        int n1;
         if (scanf("%d", &n1) != 1) { 
             printf("Erro: Apenas números inteiros são permitidos\n");
-            break;
+            continue;;
         }
-
-
         printf("Digite o segundo número: ");
-        int n2;
         if (scanf("%d", &n2) != 1) { 
             printf("Erro: Apenas números inteiros são permitidos\n");
-            break;
+            continue;;
         }
-
         if ((n2 == 0 || n1 == 0) && opr == 4) {
             printf("\nErro: Divisão por zero não é permitida.");
-            return 1;
+            continue;
         }
-
 
         switch (opr) {
             case 1: 
@@ -69,14 +67,13 @@ int main() {
             printf("\nObrigado por usar a calculadora! Até a próxima.");
             break;
         }else{
-            if (cont == 's'){
-
-            }else{
+            if (cont != 's'){
                 printf("Erro: use apenas s/n\n");
                 break;
             }
         }
 
-    }
 
+    }
 }
+    
